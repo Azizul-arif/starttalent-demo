@@ -6,12 +6,16 @@ body {
     background-color: white;
 }
 
+.logo {
+    height: 100px;
+}
+
 .grad {
     background-image: linear-gradient(to right, rgb(114, 21, 56), rgb(228, 20, 117));
 }
 
 .card {
-    color: white
+    color: white;
 }
 
 .card-image {
@@ -21,11 +25,16 @@ body {
 }
 
 footer {
+    text-align: center;
+    padding: 3px;
     background-color: black;
     color: white;
-    margin-bottom: 20px;
 }
 
 .jumbotron {
     background-color: darkslategrey;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
